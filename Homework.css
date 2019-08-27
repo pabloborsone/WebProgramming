@@ -1,0 +1,62 @@
+body {
+    background-color: #e8e8e8;
+}
+
+header {
+    background-color: #828282;
+
+}
+
+nav {
+    width: 100vw;
+}
+#pageLabel {
+    text-align: center;
+    color: white;
+}
+#disciplineInfo {
+    float: left;
+    width: fit-content;
+}
+
+#navigationList {
+    list-style-type: none;
+    border: 1px solid #e7e7e7;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+#navigationList li {
+    display: inline-block;
+}
+
+#navigationList li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 2px 5px;
+    text-decoration: none;
+}
+
+.lists {
+    list-style: square;
+}
+
+#asideInfo {
+    float: right;
+    border-style: groove;
+    border-width: 5px;
+}
+
+.professorInfo {
+    text-align: center;
+}
+
+footer {
+    background-color: #828282;
+    clear: both;
+    text-align: center;
+    color: white;
+}
