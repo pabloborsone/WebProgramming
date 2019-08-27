@@ -1,5 +1,10 @@
 body {
     background-color: #e8e8e8;
+    margin: 0px;
+    /*position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px;*/
 }
 
 header {
@@ -12,6 +17,7 @@ nav {
 }
 #pageLabel {
     text-align: center;
+    margin: 0px;
     color: white;
 }
 #disciplineInfo {
