@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
+        <style>
+          .italic{
+            font-style: italic;
+          }
+        </style>
+
         <meta charset="UTF-8">
         <title>Notas de Aula</title>
+        <link rel="stylesheet" type="text/css" href="Homework_notes.css">
     </head>
 <body>
     <header>
-        <h1 style="text-align: center">SI401A - Notas de Aula</h1>
+        <h1 id="pageLabel">SI401A - Notas de Aula</h1>
     </header>
-
+    <hr>
+    <article>
     <h2> Avisos</h2>
-    <ul style="list-style-type:square;">
+    <ul>
         <li>
             <p> <a href="http://www.ggte.unicamp.br/eam/mod/forum/view.php?id=241623" target="_blank">Notícias e avisos</a></p>
         </li>
@@ -18,25 +26,30 @@
             <p> <a href="http://www.ggte.unicamp.br/eam/pluginfile.php/674264/mod_resource/content/7/SI401A_PlanoDeEnsino_2s2019.pdf" target="_blank"> Programa de Ensino da Disciplina</a></p>
         </li>
     </ul>
-    <aside style="float: right; width: 20%; border-style: groove; border-width: 5px">
-        <h3>Notas Parciais e Finais da Disciplina</h3>
-    <p> Em breve aqui serão disponibilizadas as notas parciais e finais da disciplina.</p>
 
-    <h3>Enunciados dos Trabalhos Práticos</h3>
-    <p> Em breve você encontrará aqui os enunciados dos três Trabalhos Práticos a serem desenvolvidos ao longo do semestre. </p>
-    </aside>
+
     <h3>Notas de aula 1: </h3>
         <a href="http://www.ggte.unicamp.br/eam/mod/resource/view.php?id=248157" target="_blank">Tópico 1 - Introdução</a>
         <h3>Notas de aula 2: </h3>
         <a href="http://www.ggte.unicamp.br/eam/mod/resource/view.php?id=248790" target="_blank">Tópico 2 - HTML</a>
         <h3>Notas de aula 3:</h3>
-        <p style="font-style: italic"> Tópico 3 - CSS</p>
+        <a href="http://www.ggte.unicamp.br/eam/mod/resource/view.php?id=253810" target="_blank">Tópico 3 - CSS</a>
         <h3>Notas de aula 4:</h3>
-        <p style="font-style: italic"> Tópico 4 - JavaScript</p>
+        <p class="italic"> Tópico 4 - JavaScript</p>
         <h3>Notas de aula 5:</h3>
-        <p style="font-style: italic"> Tópico 5 - PHP </p>
+        <p class="italic"> Tópico 5 - PHP </p>
+      </article>
+
+      <aside>
+            <h3>Notas Parciais e Finais da Disciplina</h3>
+        <p> Em breve aqui serão disponibilizadas as notas parciais e finais da disciplina.</p>
+
+        <h3>Enunciados dos Trabalhos Práticos</h3>
+        <p> Em breve você encontrará aqui os enunciados dos três Trabalhos Práticos a serem desenvolvidos ao longo do semestre. </p>
+      </aside>
+
         <footer>
-            <p style="background-color: aqua; clear: both; text-align: center;border-style: groove; border-width: 5px; border-color:cyan"> <a href="Homework.html"> Retornar para a página inicial</a></p>
+            <p>Retornar para a <a href="Homework.html">página inicial</a></p>
         </footer>
 </body>
 </html>

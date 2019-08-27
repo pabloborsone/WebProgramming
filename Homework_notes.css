@@ -1,0 +1,37 @@
+body {
+    background-color: #e8e8e8;
+    margin: 0px;
+}
+
+header {
+    background-color: #828282;
+    list-style-type:square;
+}
+
+article {
+    float:left;
+}
+
+aside {
+    float: right;
+    width: 20%;
+    border-style: groove;
+    border-width: 5px;
+}
+
+footer {
+    background-color: #828282;
+    clear: both;
+    text-align: center;
+    color: white;
+}
+
+#pageLabel {
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+
+#italicFont {
+      font-style: italic;
+}
