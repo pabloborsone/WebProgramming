@@ -5,19 +5,21 @@ body {
 
 header {
     background-color: #828282;
+    box-shadow: 0px 0px 10px black;
 }
 
-nav {
-    width: 100vw;
-}
+
 #pageLabel {
     text-align: center;
     margin: 0px;
     color: white;
 }
-#disciplineInfo {
+
+article {
     float: left;
-    width: fit-content;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 #navigationList {
@@ -39,6 +41,11 @@ nav {
     text-align: center;
     padding: 2px 5px;
     text-decoration: none;
+    text-shadow: 0px 0px 10px black;
+}
+
+#navigationList li a:hover {
+    color: orange;
 }
 
 .lists {
@@ -46,9 +53,18 @@ nav {
 }
 
 #asideInfo {
-    float: right;
+    display: flex;
+    flex-direction: column;
     border-style: groove;
     border-width: 5px;
+    width: 25%;
+    height: auto;
+    float: right;
+}
+
+#picture {
+    width: 100%;
+    height: auto;
 }
 
 .professorInfo {
