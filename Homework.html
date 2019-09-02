@@ -6,9 +6,8 @@
         <link rel="stylesheet" type="text/css" href="Homework.css">
     </head>
 <body>
-    <header>
-        <h1 id="pageLabel">SI401A - Programação para a Web</h1>
     <nav>
+        <h1 id="pageLabel">SI401A - Programação para a Web</h1>
         <ul id="navigationList">
             <li><a href="#horario">Dia/Horário das aulas</a></li>
             <li><a href="#carga">Carga Horária</a></li>
@@ -20,26 +19,39 @@
             <li><a href="#avaliacao">Avaliação</a></li>
         </ul>
     </nav>
-    </header>
-    <hr>
-    <article>
-        <h2>Informações sobre a disciplina</h2>
-        <p id="horario"><strong>Dia/Horário das aulas: </strong>Segunda-feira, 19:00 – 23:00 (4 aulas)</p>
-        <p id="carga"><strong>Carga Horária: </strong>60 Horas (SI401)</p>
-        <p id="local"><strong>Local: </strong>LP03</p>
-        <p id="monitores"><strong>Monitores PAD: </strong>Alex Rafael da Costa <a href="mailto:alexr.101334@gmail.com">(alexr.101334@gmail.com)</a>
+        <div id="disciplineInfo">
+        <section id="discipline">
+            <h2>Informações sobre a disciplina</h2>
+        </section>
+        <section id="horario">
+            <h2><strong>Dia/Horário das aulas: </strong>Segunda-feira, 19:00 – 23:00 (4 aulas)</h2>
+        </section>
+        <section id="carga">
+            <h2><strong>Carga Horária: </strong>60 Horas (SI401)</h2>
+        </section>
+        <section id="local">
+            <h2><strong>Local: </strong>LP03</h2>
+        </section>
+        <section id="monitores">
+            <h2><strong>Monitores PAD: </strong>Alex Rafael da Costa <a href="mailto:alexr.101334@gmail.com">(alexr.101334@gmail.com)</a>
             <br>Mateus Hikari Tanaka
             <a href="mailto:m184082@dac.unicamp.br">(m184082@dac.unicamp.br)</a>
-        </p>
-        <p id="objetivo"><strong>Objetivo:</strong>
+        </h2>
+        </section>
+        <section id="objetivo">
+        <h2><strong>Objetivo:</strong></h2>
             <ul class="lists">
                 <li>Colocar em perspectiva a programação para Web.</li>
                 <li>Capacitar o aluno a compreender as principais linguagens de marcação e estilo.</li>
                 <li>Capacitar o aluno a compreender e desenvolver scripts para execução em navegadores.</li>
                 <li>Capacitar o aluno a compreender e desenvolver scripts para execução em servidores web.</li>
             </ul>
-            <p id="metodologia"><strong>Metodologia de ensino:</strong> Aulas teóricas e práticas. Desenvolvimento de trabalhos em grupo e/ou individuais</p>
-            <p id="ementa"><strong>Ementa:</strong>
+        </section>
+        <section id="metodologia">
+            <h2><strong>Metodologia de ensino:</strong> Aulas teóricas e práticas. Desenvolvimento de trabalhos em grupo e/ou individuais</h2>
+        </section>
+        <section id="ementa">
+            <h2><strong>Ementa:</strong></h2>
                 <ul class="lists">
                     <li>Elaboração de páginas web.</li>
                     <li>Linguagens de marcação.</li>
@@ -49,19 +61,21 @@
                     <li>Uso de servidores web para armazenamento de sites.</li>
                     <li>Atividades práticas de implementação de sistemas baseados nessas linguagens.</li>
                 </ul>
-                <p id="avaliacao"><strong>Critério de avaliação:</strong>
-                    <br>
-                    <br> P – Nota da prova;
-                    <br> T – Média das atividades práticas desenvolvidas ao longo do semestre;
-                    <br> E – Nota do Exame
-                    <br>
-                    <br> A média final do aluno será dada por: <em>M</em> = 0,5 * <em>P</em> + 0,5 * <em>T</em>;
-                    <p>Se <em>M</em> &lt; 2,5 ou <em>M</em> >= 6,0: <em>MFinal</em> = <em>M</em>;<br>
-                            Caso contrário: <em>MFinal</em> = 0,6 * <em>M</em> + 0,4 * <em>E</em></p>
-                    <p><strong><em>Só poderão fazer o Exame alunos com M ≥ 2,5 (vide Artigo 57 Inciso II do Regimento Geral de Graduação);</em></strong></p>
-    </article>
-
-    <aside id="asideInfo">
+        </section>
+        <section id="avaliacao">
+           <h2><strong>Critério de avaliação:</strong></h2>
+               <br>
+               <br> P – Nota da prova;
+               <br> T – Média das atividades práticas desenvolvidas ao longo do semestre;
+               <br> E – Nota do Exame
+               <br>
+               <br> A média final do aluno será dada por: <em>M</em> = 0,5 * <em>P</em> + 0,5 * <em>T</em>;
+               <p>Se <em>M</em> &lt; 2,5 ou <em>M</em> >= 6,0: <em>MFinal</em> = <em>M</em>;<br>
+                       Caso contrário: <em>MFinal</em> = 0,6 * <em>M</em> + 0,4 * <em>E</em></p>
+               <p><strong><em>Só poderão fazer o Exame alunos com M ≥ 2,5 (vide Artigo 57 Inciso II do Regimento Geral de Graduação);</em></strong></p>
+        </section>
+                </div>
+    <div id="asideInfo">
             <h3 class="professorInfo">Prof. Dr. Guilherme Palermo Coelho</h3>
             <figure>
                 <a href="https://www.ft.unicamp.br/pt-br/pessoas/docentes/guilherme" target="blank">
@@ -71,7 +85,7 @@
                     <p class="professorInfo"><a href="mailto:guilherme@ft.unicamp.br">guilherme@ft.unicamp.br</a></p>
                 </figcaption>
             </figure>
-    </aside>
+        </div>
     <footer>Para acessar as notas de aula da disciplina, <a href="Homework_notes.html">clique aqui</a>
     </footer>
 </body>
