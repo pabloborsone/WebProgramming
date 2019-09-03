@@ -7,26 +7,10 @@ body {
 body a {
     text-decoration: none;
 }
+
 nav {
     background-color: #828282;
     box-shadow: 0px 0px 5px black;
-}
-
-#disciplineInfo {
-    padding-left: 10px;
-    width: 70%;
-    float: left;
-}
-
-#asideInfo {
-    float: right;
-    width: 25%;
-    box-shadow: 0px 0px 5px black;
-}
-
-#picture {
-    width: 100%;
-    height: auto;
 }
 
 #pageLabel {
@@ -61,12 +45,29 @@ nav {
     color: orange;
 }
 
+#disciplineInfo {
+    padding-left: 10px;
+    width: 70%;
+    float: left;
+}
+
 .lists {
     list-style: square;
 }
 
+#asideInfo {
+    float: right;
+    width: 25%;
+    box-shadow: 0px 0px 5px black;
+}
+
 .professorInfo {
     text-align: center;
+}
+
+#picture {
+    width: 100%;
+    height: auto;
 }
 
 footer {

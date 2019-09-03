@@ -11,12 +11,6 @@ header {
     box-shadow: 0px 0px 10px black;
 }
 
-footer {
-    background-color: #828282;
-    text-align: center;
-    color: white;
-}
-
 #pageLabel {
     margin: 0px;
     text-align: center;
@@ -27,27 +21,6 @@ footer {
   text-align: center;
   color: white;
 }
-
-hr {
-      background-color: #828282;
-      height: 5px;
-    }
-
-nav {
-  display: flex;
-  flex-direction: column;
-  width: 20%;
-  background-color: cornsilk;
-}
-
-nav p {
-  margin: 0;
-}
-
-nav a {
-  text-decoration: none;
-}
-
 main {
   float: right;
   width: 80%;
@@ -63,4 +36,30 @@ main h3 {
 
 main p {
   padding-left: 30px;
+}
+
+hr {
+      background-color: #828282;
+      height: 5px;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background-color: cornsilk;
+}
+
+nav p {
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+
+footer {
+    background-color: #828282;
+    text-align: center;
+    color: white;
 }
