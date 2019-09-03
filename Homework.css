@@ -72,6 +72,9 @@ nav {
 footer {
     background-color: #828282;
     clear: both;
-    text-align: center;
     color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
